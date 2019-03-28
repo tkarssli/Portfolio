@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url(all.min.css);
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -1476,7 +1476,6 @@ input[type="radio"] {
   z-index: -1; }
   input[type="checkbox"] + label,
   input[type="radio"] + label {
-    text-decoration: none;
     color: rgba(255, 255, 255, 0.55);
     cursor: pointer;
     display: inline-block;
@@ -1485,14 +1484,6 @@ input[type="radio"] {
     padding-left: 2.4em;
     padding-right: 0.75em;
     position: relative; }
-    input[type="checkbox"] + label:before,
-    input[type="radio"] + label:before {
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
-      font-style: normal;
-      font-weight: normal;
-      text-transform: none !important; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
       background: rgba(255, 255, 255, 0.05);
@@ -1542,16 +1533,8 @@ input[type="radio"] + label:before {
 
 /* Icon */
 .icon {
-  text-decoration: none;
   border-bottom: none;
   position: relative; }
-  .icon:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: none !important; }
   .icon > .label {
     display: none; }
   .icon.major {
@@ -1673,15 +1656,7 @@ ul.actions {
     ul.actions .icon:last-child {
       padding-right: 0; }
     ul.actions .icon > a, ul.actions .icon > span {
-      border: 0;
-      text-decoration: none; }
-      ul.actions .icon > a:before, ul.actions .icon > span:before {
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        text-transform: none !important; }
+      border: 0; }
       ul.actions .icon > a .label, ul.actions .icon > span .label {
         display: none; }
   ul.actions.special {
@@ -1777,15 +1752,7 @@ ul.icons {
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li > a, ul.icons li > span {
-      border: 0;
-      text-decoration: none; }
-      ul.icons li > a:before, ul.icons li > span:before {
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        text-transform: none !important; }
+      border: 0; }
       ul.icons li > a .label, ul.icons li > span .label {
         display: none; }
 
