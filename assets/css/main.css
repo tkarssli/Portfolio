@@ -1755,6 +1755,8 @@ ul.icons {
       border: 0; }
       ul.icons li > a .label, ul.icons li > span .label {
         display: none; }
+  ul.icons.big {
+    font-size: 2em; }
 
 /* Menu */
 ul.menu {
