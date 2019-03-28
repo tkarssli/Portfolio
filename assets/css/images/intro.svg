@@ -11,7 +11,7 @@
 	<defs>
     <linearGradient id="e" x1="40" y1="210" x2="460" y2="210" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90)">
         <stop stop-color="#193441" offset="0" />
-        <stop stop-color="#FFB03B" offset="1" />
+        <stop stop-color="#5C415D" offset="1" />
     </linearGradient>
 	</defs>
 	<line x1="1100" y1="500" x2="-1000" y2="250"/>
