@@ -9,6 +9,7 @@
 	.features {
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
+		// font:
 		border-radius: _size(border-radius);
 		border: solid 1px _palette(border);
 		background: _palette(border-bg);

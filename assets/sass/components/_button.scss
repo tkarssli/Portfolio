@@ -67,6 +67,24 @@
 			font-size: 0.4em;
 		}
 
+		&.tiny {
+			font-size: 0.4em;
+			border-radius: 2px;
+			padding: 0 1.5em 0 1.5em;
+			height: calc(2.75em + 2px);
+			line-height: 2.75em;
+
+			&:hover {
+				border-color: _palette(fg) !important;
+	
+				&:after {
+					opacity: 0.05;
+					border-radius: 2px;
+					@include vendor('transform', 'scale(1)');
+				}
+			}
+		}
+
 		&.large {
 			font-size: 0.8em;
 		}

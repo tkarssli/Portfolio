@@ -18,6 +18,27 @@
 			vertical-align: middle;
 		}
 
+		.icon {
+			@include vendor('display', 'flex');
+			@include vendor('align-items', 'center');	
+			font-size: 3em;	
+			line-height: 0;	
+
+			&:last-child {
+				padding-right: 0;
+			}
+
+			> a, > span {
+				border: 0;
+				@include icon;
+
+				.label {
+					display: none;
+				}
+			}
+		}
+
+
 		&.special {
 			@include vendor('justify-content', 'center');
 			width: 100%;
