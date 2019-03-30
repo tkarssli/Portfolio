@@ -48,6 +48,25 @@
 			}
 		}
 
+		&.profile {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 30%;
+			
+			img {
+				border-radius: _size(10em);			
+				width: 100%;
+			}
+		}
+
+		// &.profile:after {
+		// 	content: "";
+		// 	clear: both;
+		// 	display: table;
+		// }
+
+		
+
 		&.main {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 1.5) 0;
