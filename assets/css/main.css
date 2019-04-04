@@ -1923,6 +1923,8 @@ header h6 + p {
       -ms-transition: opacity 1s ease, -ms-transform 1s ease;
       transition: opacity 1s ease, transform 1s ease;
       opacity: 1; }
+      .spotlights > section > .content > .inner ul {
+        padding-left: 0; }
   .spotlights > section:nth-child(2) {
     background-color: rgba(0, 0, 0, 0.05); }
   .spotlights > section:nth-child(3) {

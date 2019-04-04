@@ -58,6 +58,10 @@
 						'transform #{_duration(activation)} ease'
 					));
 					opacity: 1;
+
+					ul {
+						padding-left: 0;
+					}
 				}
 			}
 
